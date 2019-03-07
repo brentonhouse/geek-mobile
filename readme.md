@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/0.0.1 darwin-x64 node-v11.7.0
+@geek/mobile/0.0.2 darwin-x64 node-v11.7.0
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -79,7 +79,7 @@ EXAMPLES
   mobile app:create my-mobile-app
 ```
 
-_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.1/src/commands/app/create.js)_
+_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.2/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 
