@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/0.0.8 darwin-x64 node-v11.7.0
+@geek/mobile/0.0.9 darwin-x64 node-v11.7.0
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
