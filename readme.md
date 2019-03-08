@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/0.0.4 darwin-x64 node-v11.7.0
+@geek/mobile/0.0.5 darwin-x64 node-v11.7.0
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -63,23 +63,21 @@ DESCRIPTION
 
 EXAMPLES
 
-  Create app using default template (@titanium/alloy-template-default):
-  mobile app:create my-mobile-app
 
-  Create app from npm package:
-  mobile app:create my-mobile-app @titanium/alloy-template-basic
+  mobile app:create my-app-name [@scope/]<name>
+  mobile app:create my-app-name [@scope/]<name>@<tag>
+  mobile app:create my-app-name [@scope/]<name>@<version>
+  mobile app:create my-app-name [@scope/]<name>@<version range>
+  mobile app:create my-app-name <git-host>:<git-user>/<repo-name>
+  mobile app:create my-app-name <git repo url>
+  mobile app:create my-app-name <tarball file>
+  mobile app:create my-app-name <tarball url>
+  mobile app:create my-app-name <folder>
 
-  Create app from local template:
-  mobile app:create my-mobile-app ../templates/my-mobile-template
-
-  Create app from GitHub repo:
-  mobile app:create my-mobile-app brentonhouse/titanium-alloy-template-default
-
-  Create app using default template (@titanium/alloy-template-default):
-  mobile app:create my-mobile-app
+  @scope refers to npm scoped packages
 ```
 
-_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.4/src/commands/app/create.js)_
+_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.5/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 
