@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/0.0.6 darwin-x64 node-v11.7.0
+@geek/mobile/0.0.7 darwin-x64 node-v11.7.0
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -63,31 +63,33 @@ DESCRIPTION
 
 EXAMPLES
 
-  Install from npm package
+  Create app from template in npm package
 
   mobile app:create my-app-name [@scope/]<name>
   mobile app:create my-app-name [@scope/]<name>@<tag>
   mobile app:create my-app-name [@scope/]<name>@<version>
   mobile app:create my-app-name [@scope/]<name>@<version range>
 
-  Install from github repo
+  Create app from template in github repo
 
   mobile app:create my-app-name <git-host>:<git-user>/<repo-name>
   mobile app:create my-app-name <git-host>:<git-user>/<repo-name>#<tag>
   mobile app:create my-app-name <git-host>:<git-user>/<repo-name>#<branch>
   mobile app:create my-app-name <git repo url>
 
-  Install from tarball
+  (where <git-host> can be: github, bitbucket, or gitlab)
+
+  Create app from template in tarball
 
   mobile app:create my-app-name <tarball file>
   mobile app:create my-app-name <tarball url>
 
-  Install from local directory
+  Create app from template in local directory
 
   mobile app:create my-app-name <folder>
 ```
 
-_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.6/src/commands/app/create.js)_
+_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.7/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 
