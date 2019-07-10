@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/0.0.10 darwin-x64 node-v10.16.0
+@geek/mobile/0.0.11 darwin-x64 node-v10.16.0
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -43,22 +43,26 @@ ARGUMENTS
   TEMPLATE  Template to use for creating your new app
 
 OPTIONS
-  -c, --copyright=copyright              Copyright for your project
-  -d, --description=description          Description for your project
-  -i, --id=id                            [default: Generate from project name] ID for your project
-  -l, --author_email=author_email        [default: nobody@nowhere.com] Specifies the email address of the Author
-  -l, --author_name=author_name          Specifies the full name of the Author
-  -l, --author_url=author_url            Specifies the URL for the Author
-  -l, --github_username=github_username  [default: my-github-username] Specifies the github username for the project
-  -l, --license=license                  [default: MIT] Specifies the license for the project
-  -n, --name=name                        Name of your project
-  -p, --path=path                        Specifies the directory where you want to initialize the project
-  -p, --publisher=publisher              Name of person/company publishing app
+  -c, --copyright=copyright          Copyright for your project
+  -d, --description=description      Description for your project
+  -i, --id=id                        [default: Generate from project name] ID for your project
+  -l, --license=license              Specifies the license for the project
+  -n, --name=name                    Name of your project
+  -p, --path=path                    Specifies the directory where you want to initialize the project
+  -p, --publisher=publisher          Name of person/company publishing app
 
-  -t, --template=template                [default: @titanium/template-alloy-default] Template to use for creating your
-                                         new app
+  -t, --template=template            [default: @titanium/template-alloy-default] Template to use for creating your new
+                                     app
 
-  -u, --url=url                          URL for your project
+  -u, --url=url                      URL for your project
+
+  --author_email=author_email        Specifies the email address of the Author
+
+  --author_name=author_name          Specifies the full name of the Author
+
+  --author_url=author_url            Specifies the URL for the Author
+
+  --github_username=github_username  Specifies the github username for the project
 
 DESCRIPTION
   ...
@@ -96,7 +100,7 @@ EXAMPLES
   mobile app:create my-app-name <folder>
 ```
 
-_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.9/src/commands/app/create.js)_
+_See code: [oclif-plugin-titanium](https://github.com/brentonhouse/oclif-plugin-titanium/blob/v0.0.10/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 
