@@ -1,7 +1,7 @@
 {
   "name": "@geek/mobile",
   "description": "Geek Mobile Toolkit - Everything you need for creating and building cross-platform native mobile apps",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "author": {
     "name": "Brenton House",
     "email": "brenton.house@gmail.com",
@@ -12,23 +12,23 @@
   },
   "bugs": "https://github.com/brentonhouse/geek-mobile/issues",
   "dependencies": {
-    "@oclif/command": "^1.5.8",
-    "@oclif/config": "^1.12.0",
-    "@oclif/plugin-help": "^2.1.4",
+    "@oclif/command": "^1.5.16",
+    "@oclif/config": "^1.13.1",
+    "@oclif/plugin-help": "^2.2.0",
     "@oclif/plugin-not-found": "^1.2.2",
-    "@oclif/plugin-warn-if-update-available": "^1.5.4",
+    "@oclif/plugin-warn-if-update-available": "^1.7.0",
     "@oclif/plugin-which": "^1.0.3",
     "colors": "^1.3.3",
     "oclif-plugin-base": "0.0.3",
-    "oclif-plugin-titanium": "0.0.8",
+    "oclif-plugin-titanium": "0.0.9",
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {
-    "@geek/eslint-config": "0.0.6",
-    "@oclif/dev-cli": "^1.21.0",
+    "@geek/eslint-config": "0.0.7",
+    "@oclif/dev-cli": "^1.22.0",
     "@oclif/test": "^1.2.2",
     "chai": "^4.2.0",
-    "eslint": "^5.13.0",
+    "eslint": "^5.16.0",
     "mocha": "^5.2.0",
     "nyc": "^13.3.0"
   },
