@@ -24,7 +24,7 @@
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {
-    "@geek/eslint-config": "0.0.7",
+    "@geek/eslint-config": "0.0.8",
     "@oclif/dev-cli": "^1.22.0",
     "@oclif/test": "^1.2.2",
     "chai": "^4.2.0",
