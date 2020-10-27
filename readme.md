@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/0.0.11 darwin-x64 node-v12.16.3
+@geek/mobile/1.0.0 darwin-x64 node-v12.16.3
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -45,24 +45,21 @@ ARGUMENTS
 OPTIONS
   -c, --copyright=copyright          Copyright for your project
   -d, --description=description      Description for your project
-  -i, --id=id                        [default: Generate from project name] ID for your project
-  -l, --license=license              Specifies the license for the project
+  -g, --guid=guid                    GUID for your project
+  -i, --id=id                        ID for your project
+  -l, --license=license              [default: MIT] Specifies the license for the project
   -n, --name=name                    Name of your project
   -p, --path=path                    Specifies the directory where you want to initialize the project
   -p, --publisher=publisher          Name of person/company publishing app
-
-  -t, --template=template            [default: @titanium/template-alloy-default] Template to use for creating your new
-                                     app
-
+  -t, --template=template            Template to use for creating your new app
   -u, --url=url                      URL for your project
-
   --author_email=author_email        Specifies the email address of the Author
-
   --author_name=author_name          Specifies the full name of the Author
-
   --author_url=author_url            Specifies the URL for the Author
-
+  --bugs_email=bugs_email            Email address for submitting issues/bugs
+  --bugs_url=bugs_url                Specifies the URL for submitting issues/bugs
   --github_username=github_username  Specifies the github username for the project
+  --repo_url=repo_url                Specifies the URL for the repo
 
 DESCRIPTION
   ...
@@ -100,7 +97,7 @@ EXAMPLES
   mobile app:create my-app-name <folder>
 ```
 
-_See code: [src/commands/app/create.js](https://github.com/brentonhouse/geek-mobile/blob/v0.0.11/src/commands/app/create.js)_
+_See code: [src/commands/app/create.js](https://github.com/brentonhouse/geek-mobile/blob/v1.0.0/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 

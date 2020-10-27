@@ -46,15 +46,18 @@ class BaseCommand extends Command {
 		}
 	}
 }
-
-const configPath = path.join(global.config.configDir, `config.json`);
-BaseCommand.executable = path.basename(process.argv[1]);
-
 let config = {};
 
-if (fs.existsSync(configPath)) {
-	config = fs.readJsonSync(configPath) || {};
+if (global.config) {
+	const configPath = path.join(global.config.configDir, `config.json`);
+	if (fs.existsSync(configPath)) {
+		config = fs.readJsonSync(configPath) || {};
+	}
 }
+
+BaseCommand.executable = path.basename(process.argv[1]);
+
+
 BaseCommand.config =  config;
 
 module.exports = BaseCommand;
