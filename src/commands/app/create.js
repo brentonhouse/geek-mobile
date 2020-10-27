@@ -35,7 +35,7 @@ const debug = () => {};
 class CreateCommand extends BaseCommand {
 	async run() {
 
-		logger.debug(`📌  you are here → CreateCommand.run()`);
+		// logger.debug(`📌  you are here → CreateCommand.run()`);
 
 		const { args, flags } = this.parse(CreateCommand);
 
@@ -63,7 +63,7 @@ class CreateCommand extends BaseCommand {
 
 		_.defaults(args, flags, compositeConfig, system_defaults);
 
-		logger.debug(`🦠  args: ${JSON.stringify(args, null, 2)}`);
+		// logger.debug(`🦠  args: ${JSON.stringify(args, null, 2)}`);
 
 		// args.publisher = `test`;
 
@@ -711,7 +711,7 @@ CreateCommand.args = [
 	},
 ];
 
-logger.debug(`🦠  compositeConfig: ${JSON.stringify(compositeConfig, null, 2)}`);
+// logger.debug(`🦠  compositeConfig: ${JSON.stringify(compositeConfig, null, 2)}`);
 
 CreateCommand.flags = {
 	template: flags.string({

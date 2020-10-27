@@ -1,7 +1,7 @@
 {
   "name": "@geek/mobile",
   "description": "Geek Mobile Toolkit - Everything you need for creating and building cross-platform native mobile apps",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "name": "Brenton House",
     "email": "brenton.house@gmail.com",
@@ -30,7 +30,8 @@
     "multimatch": "^5.0.0",
     "path-exists": "^4.0.0",
     "temp": "^0.9.2",
-    "update-notifier": "^5.0.0"
+    "update-notifier": "^5.0.0",
+    "uuid": "^8.3.1"
   },
   "devDependencies": {
     "@geek/eslint-config": "0.0.17",
