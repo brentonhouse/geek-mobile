@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app 
+  xmlns:ti="http://ti.appcelerator.org">
+  <id>mycompany.test2</id>
+  <name>test2</name>
+  <version>1.0.0</version>
+  <publisher>my-company</publisher>
+  <url>https://axway.com</url>
+  <description>Another awesome Titanium app!</description>
+  <copyright>Copyright (c) 2020 my-company</copyright>
+  <icon>appicon.png</icon>
+  <fullscreen>false</fullscreen>
+  <navbar-hidden>false</navbar-hidden>
+  <analytics>false</analytics>
+  <guid>fda5b2f3-19c7-418a-8be7-ed34ab0ecf07</guid>
+  <property name="ti.ui.defaultunit" type="string">dp</property>
+  <property name="run-on-main-thread" type="bool">true</property>
+  <ios>
+    <min-ios-ver>12.0</min-ios-ver>
+    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+    <use-app-thinning>true</use-app-thinning>
+    <use-jscore-framework>true</use-jscore-framework>
+    <!-- Set backgroundColor for builtin storyboard and/or root view controller -->
+    <default-background-color>#ffffff</default-background-color>
+    <!-- Enable to support iPad Split View and Slide Over -->
+    <use-autolayout>false</use-autolayout>
+    <plist>
+      <dict>
+        <key>CFBundleVersion</key>
+        <string>1.0.0</string>
+        <key>CFBundleShortVersionString</key>
+        <string>1.0.0</string>
+        <key>UISupportedInterfaceOrientations~iphone</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <!-- <string>UIInterfaceOrientationPortraitUpsideDown</string> -->
+          <!-- <string>UIInterfaceOrientationLandscapeLeft</string> -->
+          <!-- <string>UIInterfaceOrientationLandscapeRight</string> -->
+        </array>
+        <key>UISupportedInterfaceOrientations~ipad</key>
+        <array>
+          <string>UIInterfaceOrientationPortrait</string>
+          <!-- <string>UIInterfaceOrientationPortraitUpsideDown</string> -->
+          <!-- <string>UIInterfaceOrientationLandscapeLeft</string> -->
+          <!-- <string>UIInterfaceOrientationLandscapeRight</string> -->
+        </array>
+        <!-- Dark Mode: Automatic, Light, or Dark -->
+        <key>UIUserInterfaceStyle</key>
+        <string>Automatic</string>
+        <!-- Update status bar based on style preference -->
+        <key>UIViewControllerBasedStatusBarAppearance</key>
+        <true/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>UIStatusBarStyle</key>
+        <string>UIStatusBarStyleDefault</string>
+        <key>ITSAppUsesNonExemptEncryption</key>
+        <false/>
+        <key>NSCameraUsageDescription</key>
+        <string>Can we use your camera?</string>
+        <key>NSPhotoLibraryUsageDescription</key>
+        <string>Can we save to your library?</string>
+        <key>NSMicrophoneUsageDescription</key>
+        <string>Can we use your microphone?</string>
+        <key>NSAppleMusicUsageDescription</key>
+        <string>Can we use your music library?</string>
+        <key>UIRequiresPersistentWiFi</key>
+        <false/>
+        <key>UIPrerenderedIcon</key>
+        <false/>
+        <key>UIStatusBarHidden</key>
+        <false/>
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+          <string>fb</string>
+          <string>fbapi</string>
+          <string>fbauth2</string>
+          <string>fbshareextension</string>
+          <string>fb-messenger-api</string>
+          <string>twitter</string>
+          <string>instagram</string>
+          <string>comgooglemaps</string>
+          <string>mycompany.test2</string>
+        </array>
+        <key>CFBundleURLTypes</key>
+        <array>
+          <dict>
+            <key>CFBundleURLName</key>
+            <!-- same as ti:app/id -->
+            <string>mycompany.test2</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+              <!-- your custom scheme -->
+              <string>mycompany.test2</string>
+              <!-- same as 'fb' plus ti:app/property[name=ti.facebook.appid] -->
+              <!--<string>fb123456789</string>-->
+            </array>
+          </dict>
+        </array>
+      </dict>
+    </plist>
+  </ios>
+  <android 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <manifest 
+      xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="100000000">
+      <application android:debuggable="true" android:icon="@drawable/appicon" android:label="test2" android:largeHeap="true" android:screenOrientation="portrait" android:theme="@style/turbo_theme"/>
+    </manifest>
+  </android>
+  <modules/>
+  <deployment-targets>
+    <target device="android">true</target>
+    <target device="ipad">true</target>
+    <target device="iphone">true</target>
+  </deployment-targets>
+  <sdk-version>9.2.1.GA</sdk-version>
+  <plugins>
+    <plugin version="1.0">ti.alloy</plugin>
+    <plugin version="1.0">turbo</plugin>
+  </plugins>
+</ti:app>
