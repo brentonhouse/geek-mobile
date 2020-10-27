@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/1.0.2 darwin-x64 node-v12.16.3
+@geek/mobile/1.0.3 darwin-x64 node-v12.16.3
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -97,7 +97,7 @@ EXAMPLES
   undefined my-app-name <folder>
 ```
 
-_See code: [src/commands/app/create.js](https://github.com/brentonhouse/geek-mobile/blob/v1.0.2/src/commands/app/create.js)_
+_See code: [src/commands/app/create.js](https://github.com/brentonhouse/geek-mobile/blob/v1.0.3/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 
