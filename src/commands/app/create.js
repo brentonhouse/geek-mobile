@@ -14,13 +14,13 @@ const pathExists = require(`path-exists`);
 const temp = require(`temp`);
 const findit = require(`findit`);
 const { using } = Promise;
-const npm = require(`@geek/npm`);
+// const npm = require(`@geek/npm`);
 const globby = require(`globby`);
-const colors = require(`colors`);
+// const colors = require(`colors`);
 const multimatch = require(`multimatch`);
 const asyncExec = require(`util`).promisify(require(`child_process`).exec);
 const inquirer = require(`inquirer`);
-const { prompt } = require(`enquirer`);
+// const { prompt } = require(`enquirer`);
 
 // const logger = func_name => {
 // 	const prefix = func_name ? `[${module_name}.${func_name}] ` : `[${module_name}`;

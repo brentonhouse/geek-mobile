@@ -1,7 +1,7 @@
 {
   "name": "@geek/mobile",
   "description": "Geek Mobile Toolkit - Everything you need for creating and building cross-platform native mobile apps",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": {
     "name": "Brenton House",
     "email": "brenton.house@gmail.com",
@@ -15,6 +15,7 @@
     "@geek/spinner": "^1.0.0",
     "@oclif/command": "^1.8.0",
     "@oclif/config": "^1.17.0",
+    "@oclif/parser": "^3.8.5",
     "@oclif/plugin-help": "^3.2.0",
     "@oclif/plugin-not-found": "^1.2.4",
     "@oclif/plugin-warn-if-update-available": "^1.7.0",
@@ -24,7 +25,10 @@
     "enquirer": "^2.3.6",
     "findit": "^2.0.0",
     "fs-extra": "^9.0.1",
+    "globby": "^11.0.1",
     "inquirer": "^7.3.3",
+    "multimatch": "^5.0.0",
+    "temp": "^0.9.2",
     "update-notifier": "^5.0.0"
   },
   "devDependencies": {

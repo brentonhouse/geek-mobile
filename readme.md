@@ -16,7 +16,7 @@ $ npm install -g @geek/mobile
 $ mobile COMMAND
 running command...
 $ mobile (-v|--version|version)
-@geek/mobile/1.0.1 darwin-x64 node-v12.16.3
+@geek/mobile/1.0.2 darwin-x64 node-v12.16.3
 $ mobile --help [COMMAND]
 USAGE
   $ mobile COMMAND
@@ -71,33 +71,33 @@ DESCRIPTION
 
 EXAMPLES
 
-  Create app from template in npm package
+  undefined
 
-  mobile app:create my-app-name [@scope/]<name>
-  mobile app:create my-app-name [@scope/]<name>@<tag>
-  mobile app:create my-app-name [@scope/]<name>@<version>
-  mobile app:create my-app-name [@scope/]<name>@<version range>
+  undefined my-app-name [@scope/]<name>
+  undefined my-app-name [@scope/]<name>@<tag>
+  undefined my-app-name [@scope/]<name>@<version>
+  undefined my-app-name [@scope/]<name>@<version range>
 
-  Create app from template in git repo
+  undefined
 
-  mobile app:create my-app-name <git-host>:<git-user>/<repo-name>
-  mobile app:create my-app-name <git-host>:<git-user>/<repo-name>#<tag>
-  mobile app:create my-app-name <git-host>:<git-user>/<repo-name>#<branch>
-  mobile app:create my-app-name <git repo url>
+  undefined my-app-name <git-host>:<git-user>/<repo-name>
+  undefined my-app-name <git-host>:<git-user>/<repo-name>#<tag>
+  undefined my-app-name <git-host>:<git-user>/<repo-name>#<branch>
+  undefined my-app-name <git repo url>
 
-  (where <git-host> can be: github, bitbucket, or gitlab)
+  undefined
 
-  Create app from template in tarball
+  undefined
 
-  mobile app:create my-app-name <tarball file>
-  mobile app:create my-app-name <tarball url>
+  undefined my-app-name <tarball file>
+  undefined my-app-name <tarball url>
 
-  Create app from template in local directory
+  undefined
 
-  mobile app:create my-app-name <folder>
+  undefined my-app-name <folder>
 ```
 
-_See code: [src/commands/app/create.js](https://github.com/brentonhouse/geek-mobile/blob/v1.0.1/src/commands/app/create.js)_
+_See code: [src/commands/app/create.js](https://github.com/brentonhouse/geek-mobile/blob/v1.0.2/src/commands/app/create.js)_
 
 ## `mobile help [COMMAND]`
 
