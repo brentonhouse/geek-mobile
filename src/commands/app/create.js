@@ -179,7 +179,7 @@ class CreateCommand extends BaseCommand {
 					if (args.guid === `empty-guid`) {
 						return `00000000-0000-0000-0000-000000000000`;
 					} else if (_.isNil(args.guid)) {
-						const uuidv4 = require(`uuid/v4`);
+						const { v4: uuidv4 } = require(`uuid`);
 						return uuidv4();
 					}
 				},
@@ -365,7 +365,7 @@ class CreateCommand extends BaseCommand {
 		const responses = _.defaults({}, answers, args, compositeConfig, system_defaults);
 		// logger.debug(`🦠  responses: ${JSON.stringify(responses, null, 2)}`);
 
-	
+
 		// args.publisher = args.publisher || compositeConfig.publisher || responses.publisher;
 
 
